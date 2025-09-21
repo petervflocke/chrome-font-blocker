@@ -7,9 +7,12 @@ A minimal Chrome extension to block problematic webfonts on selected sites, forc
 
 ## Problem
 
-After Chrome 127+, Google enabled the Fontations font backend on Linux.  
+After Chrome 127+, Google enabled the Fontations font backend on **Linux**.  
 Some webfonts (like YouthBase on [mobile.de](https://mobile.de)) fail to render correctly.  
 **Symptoms:** Pages show strange or corrupted fonts, while Firefox displays them fine.
+
+Left wrong, right with blocked fonts (working extension):  
+![Screenshot: Left wrong, right with blocked fonts](screenshots/Screenshot%20from%202025-09-21%2013-10-24.png)
 
 ---
 
