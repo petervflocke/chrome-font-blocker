@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "*youth*",
+      "resourceTypes": ["font"],
+      "initiatorDomains": ["mobile.de"]
+    }
+  },
+  {
+    "id": 2,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "*badfont*",
+      "resourceTypes": ["font"],
+      "initiatorDomains": ["example.com"]
+    }
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Site Font Blocker",
+  "version": "1.0",
+  "description": "Block webfont requests on selected sites to force system fonts.",
+  "host_permissions": ["*://*/*"],
+  "permissions": ["declarativeNetRequest", "declarativeNetRequestWithHostAccess"],
+  "declarative_net_request": {
+    "rule_resources": [
+      { "id": "rules_1", "enabled": true, "path": "rules_1.json" }
+    ]
+  }
+}
